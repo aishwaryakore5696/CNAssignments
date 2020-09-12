@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "solution.py",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPA8FhQFUBbt+NQo7U41xXG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aishwaryakore5696/CNAssignments/blob/master/solution.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "L0excMBZbbM8",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "### welcome_assignment_answers\n",
+        "### Input - All eight questions given in the assignment.\n",
+        "### Output - The right answer for the specific question.\n",
+        "\n",
+        "def welcome_assignment_answers(question):\n",
+        "    #The student doesn't have to follow the skeleton for this assignment.\n",
+        "    #Another way to implement is using a \"case\" statements similar to C.\n",
+        "    if question == \"Are encoding and encryption the same? - Yes/No\":\n",
+        "        answer = \"No\"\n",
+        "    elif question == \"Is it possible to decrypt a message without a key? - Yes/No\":\n",
+        "        answer = \"No\"\n",
+        "    elif question == \"Is it possible to decode a message without a key? - Yes/No\":\n",
+        "        answer = \"Yes\"\n",
+        "    elif question == \"Is a hashed message supposed to be un-hashed? - Yes/No\":\n",
+        "        answer = \"No\"\n",
+        "    elif question == \"What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code\":\n",
+        "        answer = \"42b76fe51778764973077a5a94056724\"\n",
+        "    elif question == \"Is MD5 a secured hashing algorithm? - Yes/No\":\n",
+        "        answer = \"No\"\n",
+        "    elif question == \"What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number\":\n",
+        "        answer = 2\n",
+        "    elif question == \"What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number\":\n",
+        "        answer = 4\n",
+        "    return(answer)\n",
+        "# Complete all the questions.\n",
+        "\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    #use this space to debug and verify that the program works\n",
+        "    debug_question = \"Are encoding and encryption the same? - Yes/No\"\n",
+        "    print(welcome_assignment_answers(debug_question))"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
